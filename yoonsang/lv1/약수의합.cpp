@@ -7,20 +7,28 @@
 
 using namespace std;
 
-vector<int> get_divisors(int n) {
+vector<int> get_divisors(int n)
+{
   vector<int> ret;
-  for (int i = 1; i <= n; ++i) {
-    if (0 == n % i) {
+  for (int i = 1; i <= n; ++i)
+  {
+    if (0 == n % i)
+    {
       ret.push_back(i);
     }
   }
   return ret;
 }
 
-vector<int> get_divisors_imprv(int n) {
+vector<int> get_divisors_imprv(int n)
+{
   vector<int> ret;
-  for (int i = 1; i <= n / 2; ++i) {
-    if (0 == n % i) {
+  ret.reserve(n / 2 + 1);
+  
+  for (int i = 1; i <= n / 2; ++i)
+  {
+    if (0 == n % i)
+    {
       ret.push_back(i);
     }
   }
@@ -28,9 +36,13 @@ vector<int> get_divisors_imprv(int n) {
   return ret;
 }
 
-int solution(int n) {
+int solution(int n)
+{
   vector<int> divisors = get_divisors_imprv(n);
-  const int sum = std::accumulate(divisors.begin(), divisors.end(), 0);
+  const int sum = std::accumulate(
+      divisors.begin(),
+      divisors.end(),
+      0);
 
   return sum;
 }
