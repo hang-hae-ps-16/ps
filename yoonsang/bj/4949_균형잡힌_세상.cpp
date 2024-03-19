@@ -11,7 +11,7 @@ bool contains(const string &from, const string &str) {
   return from.find(str) != string::npos;
 }
 
-void prob() {
+void prob1() {
   ios::sync_with_stdio(false);
 
   string line;
@@ -56,8 +56,8 @@ void prob() {
   }
 }
 
-int main() {
-  ::prob();
-
-  return 0;
-}
+//int main() {
+//  ::prob();
+//
+//  return 0;
+//}

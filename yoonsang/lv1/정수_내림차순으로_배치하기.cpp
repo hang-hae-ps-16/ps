@@ -6,7 +6,7 @@
 
 using namespace std;
 
-long long solution(long long n)
+long long solution5(long long n)
 {
     vector<string> v;
     int digit = 10;

@@ -1,10 +1,10 @@
-#include <string>
+include <string>
 #include <vector>
 #include <iostream>
 
 using namespace std;
 
-vector<int> solution(long long n) {
+vector<int> solution4(long long n) {
     vector<int> answer;
     
     int d = 1;
@@ -18,9 +18,9 @@ vector<int> solution(long long n) {
     return answer;
 }
 
-auto res = solution(12345);
+auto res = solution4(12345);
 
-for (int i: res) {
-    cout << i << " ";
-}
-cout << '\n';
+//for (int i: res) {
+//    cout << i << " ";
+//}
+//cout << '\n';

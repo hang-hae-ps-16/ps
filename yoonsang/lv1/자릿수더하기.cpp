@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-int solution(int n) {
+int solution3(int n) {
   int answer = 0;
   int a = 100000000;
 

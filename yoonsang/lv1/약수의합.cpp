@@ -36,7 +36,7 @@ vector<int> get_divisors_imprv(int n)
   return ret;
 }
 
-int solution(int n)
+int solution2(int n)
 {
   vector<int> divisors = get_divisors_imprv(n);
   const int sum = std::accumulate(

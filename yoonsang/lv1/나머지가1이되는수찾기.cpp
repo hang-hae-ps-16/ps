@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int solution(int n) {
+int solution1(int n) {
   // n % x = 1
   for (int i = 1; i < n; i++) {
     if (1 == n % i) {

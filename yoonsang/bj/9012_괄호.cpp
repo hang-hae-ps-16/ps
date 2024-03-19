@@ -13,7 +13,7 @@ vector<char> split(string s) {
   return ret;
 }
 
-int main() {
+void prob2() {
   int t = 0;
   cin >> t;
 
@@ -52,6 +52,9 @@ int main() {
       cout << endl;
     }
   }
-
-  return 0;
 }
+
+//int main() {
+//  ::prob();
+//  return 0;
+//}
