@@ -31,7 +31,7 @@ using namespace std;
 //187 -> 66666
 //500 -> 166699
 
-int main() {
+int main2324() {
     int target = 0;
     cin >> target;
 

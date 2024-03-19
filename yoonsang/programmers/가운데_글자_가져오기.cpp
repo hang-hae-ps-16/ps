@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string solution(string s) {
+string solution2(string s) {
   const int mid = (int)floor(s.size() / 2);
   return s.size() % 2 != 0 ?
     s.substr(mid, 1) :

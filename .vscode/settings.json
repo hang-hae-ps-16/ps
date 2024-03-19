@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "numeric": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "string": "cpp",
+        "type_traits": "cpp"
     }
 }
