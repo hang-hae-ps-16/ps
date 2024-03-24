@@ -1,0 +1,12 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Lv.2/Day4/stack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
